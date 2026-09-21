@@ -1,12 +1,13 @@
 export const portfolioData = {
   personal: {
     name: "Shreya Hegde",
-    role: "Product Designer & AI Experience Designer",
+    role: "AI Product Designer | Conversational UX | UI/UX Design",
     tagline: "Designing experiences where people and AI work better together.",
     status: "Open to opportunities",
     location: "Bengaluru, India",
     email: "shreyahegde244@gmail.com",
-    phone: "+91 (Available on Request)",
+    phone: "+91-9148723042",
+    summary: "Product Designer specializing in AI and conversational UX. Proven experience in driving prompt engineering strategies for generative AI interactions and translating complex prompt workflows into intuitive chatbot and dashboard experiences. Strongly rooted in rigorous user research and rapid prototyping.",
     bio: "I design intuitive interfaces and conversational AI experiences that simplify complex workflows and drive measurable business impact.",
     socials: {
       linkedin: "https://www.linkedin.com/in/shreyahegde01",
@@ -30,79 +31,119 @@ export const portfolioData = {
   education: [
     {
       id: 1,
-      degree: "Bachelor of Fine Art (BFA)",
-      institution: "Government College of Fine Art, Dharwad, Karnataka",
-      duration: "2020 — 2024",
+      degree: "Bachelor of Visual Art (BVA)",
+      institution: "Government Fine Art College, Dharwad",
+      duration: "Jan 2020 – Aug 2024",
       skills: ["Visual Composition", "Colour Theory", "Illustration", "Visual Communication"]
     },
     {
       id: 2,
-      degree: "UI/UX Design Course",
-      institution: "Bridge UX Design Studio, Bengaluru",
-      duration: "2024",
-      skills: ["User-Centered Design", "Wireframing", "Prototyping", "Interaction Design"]
+      degree: "Advanced UX/UI Design course",
+      institution: "Bridge UX Studio",
+      duration: "Nov 2024 – May 2025",
+      skills: ["User-Centered Design", "Conversational UX", "Wireframing", "Interaction Design"]
     }
   ],
 
   experience: [
     {
       id: 1,
-      role: "Product / UI/UX Designer",
+      role: "Product Designer",
       company: "InferWorks",
       type: "Full-Time",
-      duration: "2025 — 2026",
-      description: "Designing AI-powered conversational experiences, website revamps, and scalable design systems.",
+      duration: "Aug 2025 – Aug 2026",
+      description: "Spearheading AI product design initiatives, prompt frameworks, and data visualization dashboards.",
       contributions: [
-        "Designed AI-powered conversational experiences and intuitive chatbot workflows.",
-        "Worked on website revamps, improving usability, responsive behavior, and visual hierarchy.",
-        "Built reusable UI components and interactive prototypes for digital products.",
-        "Collaborated with stakeholders to translate requirements into user-focused design solutions."
+        "Spearheaded AI product design initiatives, establishing scalable conversational UX patterns for enterprise clients.",
+        "Implement advanced prompt engineering frameworks to optimize generative AI interactions, significantly reducing user friction.",
+        "Prototype and iterate on innovative chatbot interfaces and accompanying data visualization dashboards to streamline decision-making."
       ],
-      skills: ["Figma", "AI UX", "Prototyping", "Design Systems", "UI/UX"]
+      skills: ["AI Product Design", "Conversational UX", "Prompt Engineering", "Chatbot Design", "Dashboard Design", "UX Writing"]
     },
     {
       id: 2,
-      role: "UI/UX Design Intern",
-      company: "Bridge UX Design Studio",
+      role: "Product Design Intern",
+      company: "Bridge UX Studio",
       type: "Internship",
-      duration: "2024",
-      description: "Designed responsive website interfaces, marketing collateral, and wireframes for multiple client projects.",
+      duration: "Nov 2024 – May 2025",
+      description: "Applying user-centered methodologies, competitive evaluations, and usability testing sessions.",
       contributions: [
-        "Designed responsive website interfaces and contributed to multiple client projects.",
-        "Created email templates, marketing creatives, and logo/brand assets.",
-        "Developed wireframes and high-fidelity UI designs based on project requirements.",
-        "Collaborated with the design team to deliver consistent and engaging digital experiences."
+        "Applied foundational UX principles and user-centered design methodologies across multiple cross-functional squad projects.",
+        "Conducted extensive competitive analyses and heuristic evaluations to identify usability gaps in legacy systems.",
+        "Facilitated usability testing sessions utilizing paper prototypes and low-fidelity digital wireframes to validate early concepts."
       ],
-      skills: ["Figma", "Wireframing", "UI Design", "Adobe Suite", "Canva", "Miro"]
+      skills: ["UX Research", "Heuristic Evaluation", "Paper Prototyping", "Wireframing", "Usability Testing", "Miro"]
     }
   ],
 
   tools: {
     design: [
       "Figma",
-      "FigJam",
-      "Figma Make",
+      "Adobe XD",
+      "Adobe Photoshop",
       "Adobe Illustrator",
       "Design.com",
-      "Canva"
+      "Miro"
     ],
     prototyping: [
-      "Framer",
+      "Figma Prototyping",
+      "Antigravity",
       "Lovable",
-      "Miro",
-      "HTML / CSS",
-      "Figma Prototyping"
+      "Framer",
+      "Wireframing",
+      "Stitch"
     ],
     ai: [
-      "ChatGPT",
-      "Claude",
-      "AI Prototyping",
       "Conversational UX",
-      "AI-Assisted Design",
       "Prompt Engineering",
+      "Chatbot Design",
+      "Figma AI",
+      "Claude",
+      "ChatGPT",
       "Generative AI"
     ]
   },
+
+  skillsAndTooling: {
+    aiConversational: [
+      "AI Product Design",
+      "Conversational UX",
+      "Prompt Engineering",
+      "Chatbot Design",
+      "Dashboard Design",
+      "UX Writing"
+    ],
+    uxResearch: [
+      "User Interviews",
+      "Competitive Analysis",
+      "Usability Testing",
+      "Heuristic Evaluation",
+      "Card Sorting",
+      "Empathy Mapping"
+    ],
+    uxUiDesign: [
+      "User Flows",
+      "Information Architecture",
+      "Wireframing",
+      "Prototyping",
+      "UI Design"
+    ],
+    softwarePlatforms: [
+      "Figma",
+      "Adobe XD",
+      "Miro",
+      "Photoshop",
+      "Illustrator",
+      "Design.com",
+      "Antigravity",
+      "Figma AI",
+      "Claude",
+      "Stitch",
+      "Lovable"
+    ]
+  },
+
+  languages: ["English", "Hindi", "Kannada"],
 
   projects: [
     {

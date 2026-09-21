@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shreya Hegde - Curriculum Vitae</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+    @page {
+      size: A4;
+      margin: 16mm 20mm;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: #1E293B;
+      font-size: 9.5pt;
+      line-height: 1.48;
+      background: #FFFFFF;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      width: 100%;
+    }
+
+    .page-break {
+      page-break-before: always;
+      padding-top: 4mm;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 12pt;
+    }
+
+    .name {
+      font-size: 21pt;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #0F172A;
+      margin-bottom: 3pt;
+    }
+
+    .role-title {
+      font-size: 10pt;
+      color: #334155;
+      font-weight: 500;
+      margin-bottom: 6pt;
+    }
+
+    .contact-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10pt;
+      font-size: 8.5pt;
+      color: #475569;
+    }
+
+    .contact-row a {
+      color: #0F172A;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-row .sep {
+      color: #CBD5E1;
+    }
+
+    /* Section Headings */
+    .section-title {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0F172A;
+      margin-top: 12pt;
+      margin-bottom: 5pt;
+      padding-bottom: 2pt;
+      border-bottom: 1px solid #1E293B;
+      letter-spacing: -0.01em;
+    }
+
+    .first-section-title {
+      margin-top: 0;
+    }
+
+    p.summary-text {
+      color: #334155;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    /* Education & Experience Items */
+    .entry-item {
+      margin-top: 6pt;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9.5pt;
+    }
+
+    .entry-title {
+      font-weight: 700;
+      color: #0F172A;
+    }
+
+    .entry-institution {
+      color: #475569;
+      font-size: 9pt;
+      margin-top: 1pt;
+    }
+
+    .entry-date {
+      color: #0F172A;
+      font-size: 9pt;
+      font-weight: 500;
+      text-align: right;
+    }
+
+    /* Bullet lists */
+    ul.bullet-list {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 3pt;
+    }
+
+    ul.bullet-list li {
+      position: relative;
+      padding-left: 14pt;
+      margin-bottom: 3pt;
+      color: #334155;
+      line-height: 1.45;
+    }
+
+    ul.bullet-list li::before {
+      content: '•';
+      position: absolute;
+      left: 3pt;
+      top: -0.5pt;
+      color: #0F172A;
+      font-size: 10pt;
+    }
+
+    /* Skills list */
+    .skills-category {
+      margin-top: 5pt;
+    }
+
+    .skills-cat-title {
+      font-weight: 700;
+      color: #0F172A;
+      font-size: 9.25pt;
+      margin-bottom: 1.5pt;
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+    }
+
+    .skills-cat-title::before {
+      content: '•';
+      color: #0F172A;
+      font-size: 10pt;
+    }
+
+    .skills-cat-desc {
+      color: #334155;
+      padding-left: 14pt;
+      font-size: 9pt;
+      line-height: 1.4;
+      margin-bottom: 4pt;
+    }
+
+    /* Project entries */
+    .project-entry {
+      margin-top: 7pt;
+    }
+
+    .project-title {
+      font-weight: 700;
+      color: #0F172A;
+      font-size: 9.25pt;
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+    }
+
+    .project-title::before {
+      content: '•';
+      color: #0F172A;
+      font-size: 10pt;
+    }
+
+    .project-tags {
+      color: #475569;
+      padding-left: 14pt;
+      font-size: 9pt;
+      line-height: 1.4;
+    }
+
+    .project-subtext {
+      color: #475569;
+      padding-left: 14pt;
+      font-size: 9pt;
+      margin-top: 2pt;
+    }
+
+    /* Languages */
+    .lang-item {
+      color: #334155;
+      font-size: 9.25pt;
+      margin-top: 4pt;
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+      padding-left: 1pt;
+    }
+
+    .lang-item::before {
+      content: '•';
+      color: #0F172A;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1 -->
+  <div class="page">
+    
+    <div class="header">
+      <h1 class="name">SHREYA HEGDE</h1>
+      <div class="role-title">AI Product Design | Conversational UX | UI/UX Design</div>
+      <div class="contact-row">
+        <span>📍 Bengaluru</span>
+        <span class="sep">|</span>
+        <span>✉️ shreyahegde244@gmail.com</span>
+        <span class="sep">|</span>
+        <span>📞 +91-9148723042</span>
+        <span class="sep">|</span>
+        <a href="https://www.behance.net/shreyahegde3">Behance</a>
+        <span class="sep">|</span>
+        <a href="https://www.linkedin.com/in/shreyahegde01">LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- Career Summary -->
+    <div class="section-block">
+      <h2 class="section-title first-section-title">Career Summary</h2>
+      <p class="summary-text">
+        Product Designer specializing in AI and conversational UX. Proven experience in driving prompt engineering strategies for generative AI interactions and translating complex prompt workflows into intuitive chatbot and dashboard experiences. Strongly rooted in rigorous user research and rapid prototyping.
+      </p>
+    </div>
+
+    <!-- Education -->
+    <div class="section-block">
+      <h2 class="section-title">Education</h2>
+      
+      <div class="entry-item">
+        <div class="entry-header">
+          <span class="entry-title">Bachelor of Visual Art (BVA)</span>
+          <span class="entry-date">Jan 2020 – Aug 2024</span>
+        </div>
+        <div class="entry-institution">Government Fine Art College, Dharwad</div>
+      </div>
+
+      <div class="entry-item" style="margin-top: 5pt;">
+        <div class="entry-header">
+          <span class="entry-title">Advanced UX/UI Design course</span>
+          <span class="entry-date">Nov 2024 – May 2025</span>
+        </div>
+        <div class="entry-institution">Bridge UX Studio</div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section-block">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="entry-item">
+        <div class="entry-header">
+          <span class="entry-title">Product Designer, InferWorks</span>
+          <span class="entry-date">Aug 2025 – Aug 2026</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Spearheaded AI product design initiatives, establishing scalable conversational UX patterns for enterprise clients.</li>
+          <li>Implement advanced prompt engineering frameworks to optimize generative AI interactions, significantly reducing user friction.</li>
+          <li>Prototype and iterate on innovative chatbot interfaces and accompanying data visualization dashboards to streamline decision-making.</li>
+        </ul>
+      </div>
+
+      <div class="entry-item" style="margin-top: 6pt;">
+        <div class="entry-header">
+          <span class="entry-title">Product Design Intern, Bridge UX Studio</span>
+          <span class="entry-date">Nov 2024 – May 2025</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Applied foundational UX principles and user-centered design methodologies across multiple cross-functional squad projects.</li>
+          <li>Conducted extensive competitive analyses and heuristic evaluations to identify usability gaps in legacy systems.</li>
+          <li>Facilitated usability testing sessions utilizing paper prototypes and low-fidelity digital wireframes to validate early concepts.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills and Tooling -->
+    <div class="section-block">
+      <h2 class="section-title">Skills and Tooling</h2>
+
+      <div class="skills-category">
+        <div class="skills-cat-title">AI & Conversational</div>
+        <div class="skills-cat-desc">AI Product Design, Conversational UX, Prompt Engineering, Chatbot Design, Dashboard Design, UX Writing</div>
+      </div>
+
+      <div class="skills-category">
+        <div class="skills-cat-title">UX Research</div>
+        <div class="skills-cat-desc">User Interviews, Competitive Analysis, Usability Testing, Heuristic Evaluation, Card Sorting, Empathy Mapping</div>
+      </div>
+
+      <div class="skills-category">
+        <div class="skills-cat-title">UX/UI Design</div>
+        <div class="skills-cat-desc">User Flows, Information Architecture, Wireframing, Prototyping, UI Design</div>
+      </div>
+
+      <div class="skills-category">
+        <div class="skills-cat-title">Software & Platforms</div>
+        <div class="skills-cat-desc">Figma, Adobe XD, Miro, Photoshop, Illustrator, Design.com, Antigravity, Figma AI, Claude, Stitch, Lovable</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PAGE 2 -->
+  <div class="page page-break">
+    
+    <!-- Projects -->
+    <div class="section-block">
+      <h2 class="section-title first-section-title">Projects</h2>
+
+      <div class="project-entry">
+        <div class="project-title">Conversational AI Chatbot</div>
+        <div class="project-tags">AI Product Design · Conversational UX · Prototyping</div>
+      </div>
+
+      <div class="project-entry">
+        <div class="project-title">Party Booking Chatbot</div>
+        <div class="project-tags">Conversational UX · AI · User Flow · Chatbot Design</div>
+        <div class="project-subtext">• Working prototype using AI tools.</div>
+      </div>
+
+      <div class="project-entry">
+        <div class="project-title">Website Revamps</div>
+        <div class="project-tags">UX/UI · Responsive Design · Information Architecture</div>
+      </div>
+
+      <div class="project-entry">
+        <div class="project-title">Sagar World — Website Revamp</div>
+        <div class="project-tags">UX/UI · Web Design · Visual Design</div>
+      </div>
+    </div>
+
+    <!-- Language -->
+    <div class="section-block" style="margin-top: 14pt;">
+      <h2 class="section-title">Language</h2>
+
+      <div class="lang-item">English</div>
+      <div class="lang-item">Hindi</div>
+      <div class="lang-item">Kannada</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

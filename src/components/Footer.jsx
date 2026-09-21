@@ -2,10 +2,6 @@ import React from 'react';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <footer className="site-footer">
       <div className="container">
@@ -56,13 +52,6 @@ export default function Footer() {
             </ul>
           </div>
 
-        </div>
-
-        <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} {portfolioData.personal.name}. Built with React, Poppins typography & pure solid blue accents.</span>
-          <button className="back-to-top-btn" onClick={scrollToTop} aria-label="Back to top">
-            <span>Back to Top</span>
-          </button>
         </div>
       </div>
     </footer>

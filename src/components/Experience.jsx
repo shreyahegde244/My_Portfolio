@@ -78,31 +78,31 @@ export default function Experience({ onOpenResume }) {
             ))}
           </div>
 
-          {/* Interactive Envelope Resume Showcase */}
+          {/* Interactive Envelope CV Showcase */}
           <div className="resume-envelope-showcase">
             <a
               href="/Shreya%20Hegde%202026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-envelope-card"
-              aria-label="View Shreya Hegde Resume PDF"
+              aria-label="View Shreya Hegde CV PDF"
             >
               {/* Envelope Container */}
               <div className="envelope-box">
                 {/* Back flap (open) */}
                 <div className="envelope-back"></div>
 
-                {/* Resume Paper (Slides up on hover) */}
+                {/* CV Paper (Slides up on hover) */}
                 <div className="envelope-paper">
                   <div className="paper-top-bar">
-                    <span className="paper-badge-pdf">PDF</span>
+                    <span className="paper-badge-pdf">CV</span>
                     <span className="paper-date">2026</span>
                   </div>
                   <div className="paper-profile">
                     <div className="paper-avatar">SH</div>
                     <div>
                       <div className="paper-name">Shreya Hegde</div>
-                      <div className="paper-sub">Product Designer</div>
+                      <div className="paper-sub">AI Product Designer</div>
                     </div>
                   </div>
                   <div className="paper-preview-lines">
@@ -133,7 +133,7 @@ export default function Experience({ onOpenResume }) {
                 className="btn btn-primary"
               >
                 <FileText size={16} style={{ marginRight: '8px' }} />
-                View Resume
+                View CV
               </a>
             </div>
           </div>
